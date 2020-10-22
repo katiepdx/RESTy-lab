@@ -7,6 +7,66 @@ exports[`App component renders App 1`] = `
   </h1>
   <div>
     Resty Container
+    <section>
+      <div>
+        <label
+          for="url"
+        >
+          Search Bar
+        </label>
+        <input
+          name="url"
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          for="method"
+        >
+          Method
+        </label>
+        <input
+          name="method"
+          type="radio"
+          value="GET"
+        />
+         GET
+        <input
+          name="method"
+          type="radio"
+          value="POST"
+        />
+         POST
+        <input
+          name="method"
+          type="radio"
+          value="PUT"
+        />
+         PUT
+        <input
+          name="method"
+          type="radio"
+          value="DELETE"
+        />
+         DELELTE
+      </div>
+      <div>
+        <label
+          for="json"
+        >
+          JSON (POST/PUT)
+        </label>
+        <input
+          name="json"
+          type="text"
+          value=""
+        />
+      </div>
+      <button>
+        Go!
+      </button>
+    </section>
   </div>
 </DocumentFragment>
 `;
