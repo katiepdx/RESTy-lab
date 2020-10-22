@@ -15,7 +15,7 @@ const Controls = ({ url, json, onChange, onClick }) => (
       <input type="radio" name="method" value="GET" onChange={onChange} /> GET
       <input type="radio" name="method" value="POST" onChange={onChange} /> POST
       <input type="radio" name="method" value="PUT" onChange={onChange} /> PUT
-      <input type="radio" name="method" value="DELETE" onChange={onChange} /> DELELTE
+      <input type="radio" name="method" value="DELETE" onChange={onChange} /> DELETE
     </div>
     <div>
       <label htmlFor="json">JSON (POST/PUT)</label>
@@ -25,6 +25,11 @@ const Controls = ({ url, json, onChange, onClick }) => (
   </section>
 );
 
-Controls.propType = {};
+Controls.propType = {
+  url: propTypes.string.isRequired,
+  json: propTypes.string,
+  onChange: propTypes.func.isRequired,
+  onClick: propTypes.func.isRequired
+};
 
 export default Controls;
