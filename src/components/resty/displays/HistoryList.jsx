@@ -4,9 +4,9 @@ import HistoryItem from './HistoryItem'
 
 const HistoryList = ({ history }) => {
   return history.map(search => (
-    <p>
-      <HistoryItem {...search} />
-    </p>
+    <>
+      <HistoryItem key={search.url + search.method} {...search} />
+    </>
   ))
 }
 

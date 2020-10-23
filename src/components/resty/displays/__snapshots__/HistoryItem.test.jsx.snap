@@ -3,14 +3,9 @@
 exports[`HistoryItem component renders HistoryItem 1`] = `
 <DocumentFragment>
   <section>
-    <div>
-      <p>
-        GET
-      </p>
-      <p>
-        www.url.com
-      </p>
-    </div>
+    <p>
+      GET || www.url.com
+    </p>
   </section>
 </DocumentFragment>
 `;

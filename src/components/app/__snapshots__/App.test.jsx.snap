@@ -23,6 +23,7 @@ exports[`App component renders App 1`] = `
       <div>
         <label
           for="method"
+          required=""
         >
           Method
         </label>

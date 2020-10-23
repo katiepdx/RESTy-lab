@@ -4,7 +4,6 @@ import Controls from '../components/resty/controls/Controls'
 import HistoryList from '../components/resty/displays/HistoryList';
 
 export default class RestyContainer extends Component {
-  // state - url, method, click, json
   state = {
     url: '',
     method: '',
@@ -20,11 +19,11 @@ export default class RestyContainer extends Component {
     console.log(e.target.value)
   }
 
-  handleClick = (e) => {
-    e.preventDefault();
+  handleClick = () => {
+    // check form 
+    if (!this.state.url || !this.state.method) return alert('Please fill out the required fields')
 
     this.setState(state => ({
-      // update using previous state
       history: [
         ...state.history,
         { url: state.url, method: state.method }
@@ -34,8 +33,7 @@ export default class RestyContainer extends Component {
   }
 
   render() {
-    // deconstruct state 
-    const { url, method, click, history } = this.state;
+    const { click, history } = this.state;
 
     return (
       <>

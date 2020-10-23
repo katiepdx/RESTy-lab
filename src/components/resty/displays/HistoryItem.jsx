@@ -4,10 +4,7 @@ import propTypes from 'prop-types';
 const HistoryItem = ({ url, method }) => (
   <section>
     {/* search history */}
-    <div>
-      <p>{method}</p>
-      <p>{url}</p>
-    </div>
+    <p>{method} || {url}</p>
   </section>
 );
 
