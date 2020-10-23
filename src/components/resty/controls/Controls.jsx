@@ -11,7 +11,7 @@ const Controls = ({ url, json, onChange, onClick }) => (
       <input type="text" name="url" value={url} onChange={onChange} />
     </div>
     <div>
-      <label required htmlFor="method">Method</label>
+      <label htmlFor="method">Method</label>
       <input type="radio" name="method" value="GET" onChange={onChange} /> GET
       <input type="radio" name="method" value="POST" onChange={onChange} /> POST
       <input type="radio" name="method" value="PUT" onChange={onChange} /> PUT
