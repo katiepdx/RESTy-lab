@@ -49,7 +49,7 @@ exports[`App component renders App 1`] = `
           type="radio"
           value="DELETE"
         />
-         DELELTE
+         DELETE
       </div>
       <div>
         <label
