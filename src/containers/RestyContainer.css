@@ -3,20 +3,20 @@
 }
 
 body {
-  background-color:rgb(134, 65, 65);
+  background-color: white;
   min-width: min-content;
   max-width: 100%;
 }
 
 h1 {
-  background-color: rgb(223, 189, 189);
+  background-color: rgba(255, 134, 54, 0.432);
   text-align: center;
   padding: 1.2rem;
   border-radius: 1.2rem;
 }
 
 .historyAndResponse {
-  background-color: rgb(202, 202, 202);
+  background-color: whitesmoke;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
