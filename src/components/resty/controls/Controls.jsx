@@ -3,9 +3,10 @@
 // input field for typing JSON for PUT POST
 import React from 'react';
 import propTypes from 'prop-types';
+import styles from './Controls.css'
 
 const Controls = ({ url, json, onChange, onClick }) => (
-  <section>
+  <section className={styles.userForm}>
     <div>
       <label htmlFor="url">Search Bar</label>
       <input type="text" name="url" value={url} onChange={onChange} />

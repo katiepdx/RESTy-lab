@@ -1,10 +1,12 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import styles from './HistoryItem.css'
 
 const HistoryItem = ({ url, method }) => (
-  <section>
+  <section className={styles.historyItem}>
     {/* search history */}
-    <p>{method} || {url}</p>
+    <p>Method: {method}</p>
+    <p>URL: {url}</p>
   </section>
 );
 

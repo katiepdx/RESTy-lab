@@ -6,8 +6,9 @@ exports[`App component renders App 1`] = `
     Resty Lab
   </h1>
   <div>
-    Resty Container
-    <section>
+    <section
+      class="userForm"
+    >
       <div>
         <label
           for="url"

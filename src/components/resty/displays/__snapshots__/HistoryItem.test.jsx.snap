@@ -2,9 +2,14 @@
 
 exports[`HistoryItem component renders HistoryItem 1`] = `
 <DocumentFragment>
-  <section>
+  <section
+    class="historyItem"
+  >
     <p>
-      GET || www.url.com
+      Method: GET
+    </p>
+    <p>
+      URL: www.url.com
     </p>
   </section>
 </DocumentFragment>

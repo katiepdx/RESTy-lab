@@ -1,10 +1,11 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import ReactJson from 'react-json-view'
+import styles from './Response.css'
 
 const Response = ({ apiResponse }) => (
-  <section>
-    <ReactJson src={apiResponse} />
+  <section className={styles.response}>
+    <ReactJson src={apiResponse} displayDataTypes={false} displayObjectSize={false}  theme="twilight" />
   </section>
 );
 

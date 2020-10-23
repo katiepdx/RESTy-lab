@@ -2,19 +2,34 @@
 
 exports[`HistoryList component renders HistoryList 1`] = `
 <DocumentFragment>
-  <section>
+  <section
+    class="historyItem"
+  >
     <p>
-      GET || www.api1.com
+      Method: GET
+    </p>
+    <p>
+      URL: www.api1.com
     </p>
   </section>
-  <section>
+  <section
+    class="historyItem"
+  >
     <p>
-      PUT || www.api2.com
+      Method: PUT
+    </p>
+    <p>
+      URL: www.api2.com
     </p>
   </section>
-  <section>
+  <section
+    class="historyItem"
+  >
     <p>
-      GET || www.api3.com
+      Method: GET
+    </p>
+    <p>
+      URL: www.api3.com
     </p>
   </section>
 </DocumentFragment>

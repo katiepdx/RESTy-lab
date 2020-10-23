@@ -2,10 +2,12 @@
 
 exports[`Response component renders Response 1`] = `
 <DocumentFragment>
-  <section>
+  <section
+    class="response"
+  >
     <div
       class="react-json-view"
-      style="font-family: monospace; cursor: default; background-color: rgba(0, 0, 0, 0); position: relative;"
+      style="font-family: monospace; cursor: default; background-color: rgb(30, 30, 30); position: relative;"
     >
       <div
         class="pretty-json-container object-container"
@@ -29,7 +31,7 @@ exports[`Response component renders Response 1`] = `
                   >
                     <svg
                       fill="currentColor"
-                      style="vertical-align: top; color: rgb(88, 110, 117); height: 1em; width: 1em; padding-left: 2px;"
+                      style="vertical-align: top; color: rgb(117, 135, 166); height: 1em; width: 1em; padding-left: 2px;"
                       viewBox="0 0 15 15"
                     >
                       <path
@@ -39,7 +41,7 @@ exports[`Response component renders Response 1`] = `
                   </span>
                 </div>
                 <span
-                  style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                  style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                 >
                   <span
                     class="object-key"
@@ -59,13 +61,13 @@ exports[`Response component renders Response 1`] = `
                     </span>
                   </span>
                   <span
-                    style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                    style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                   >
                     :
                   </span>
                 </span>
                 <span
-                  style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
+                  style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255);"
                 >
                   [
                 </span>
@@ -74,12 +76,6 @@ exports[`Response component renders Response 1`] = `
                 class="object-meta-data"
                 style="display: inline-block; padding: 0px 0px 0px 10px;"
               >
-                <span
-                  class="object-size"
-                  style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
-                >
-                  3 items
-                </span>
                 <span
                   class="copy-to-clipboard-container"
                 >
@@ -92,7 +88,7 @@ exports[`Response component renders Response 1`] = `
                       <svg
                         fill="currentColor"
                         preserveAspectRatio="xMidYMid meet"
-                        style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                        style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                         viewBox="0 0 40 40"
                       >
                         <g>
@@ -115,7 +111,7 @@ exports[`Response component renders Response 1`] = `
               >
                 <div
                   class="object-key-val"
-                  style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                  style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                 >
                   <span>
                     <span
@@ -130,7 +126,7 @@ exports[`Response component renders Response 1`] = `
                         >
                           <svg
                             fill="currentColor"
-                            style="vertical-align: top; color: rgb(88, 110, 117); height: 1em; width: 1em; padding-left: 2px;"
+                            style="vertical-align: top; color: rgb(117, 135, 166); height: 1em; width: 1em; padding-left: 2px;"
                             viewBox="0 0 15 15"
                           >
                             <path
@@ -140,7 +136,7 @@ exports[`Response component renders Response 1`] = `
                         </span>
                       </div>
                       <span
-                        style="display: inline-block; color: rgb(108, 113, 196); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                        style="display: inline-block; color: rgb(175, 196, 219); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                       >
                         <span
                           class="array-key"
@@ -148,13 +144,13 @@ exports[`Response component renders Response 1`] = `
                           0
                         </span>
                         <span
-                          style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                          style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                         >
                           :
                         </span>
                       </span>
                       <span
-                        style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
+                        style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255);"
                       >
                         {
                       </span>
@@ -163,12 +159,6 @@ exports[`Response component renders Response 1`] = `
                       class="object-meta-data"
                       style="display: inline-block; padding: 0px 0px 0px 10px;"
                     >
-                      <span
-                        class="object-size"
-                        style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
-                      >
-                        3 items
-                      </span>
                       <span
                         class="copy-to-clipboard-container"
                       >
@@ -181,7 +171,7 @@ exports[`Response component renders Response 1`] = `
                             <svg
                               fill="currentColor"
                               preserveAspectRatio="xMidYMid meet"
-                              style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                              style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                               viewBox="0 0 40 40"
                             >
                               <g>
@@ -204,12 +194,12 @@ exports[`Response component renders Response 1`] = `
                     >
                       <div
                         class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                       >
                         <span>
                           <span
                             class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                            style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                           >
                             <span
                               style="vertical-align: top;"
@@ -228,7 +218,7 @@ exports[`Response component renders Response 1`] = `
                             </span>
                           </span>
                           <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                           >
                             :
                           </span>
@@ -238,14 +228,8 @@ exports[`Response component renders Response 1`] = `
                           style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                         >
                           <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
+                            style="display: inline-block; color: rgb(205, 168, 105);"
                           >
-                            <span
-                              class="data-type-label"
-                              style="font-size: 11px; margin-right: 4px; opacity: 0.8;"
-                            >
-                              string
-                            </span>
                             <span
                               class="string-value"
                               style="cursor: default;"
@@ -266,7 +250,7 @@ exports[`Response component renders Response 1`] = `
                               <svg
                                 fill="currentColor"
                                 preserveAspectRatio="xMidYMid meet"
-                                style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                                style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                                 viewBox="0 0 40 40"
                               >
                                 <g>
@@ -281,12 +265,12 @@ exports[`Response component renders Response 1`] = `
                       </div>
                       <div
                         class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                       >
                         <span>
                           <span
                             class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                            style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                           >
                             <span
                               style="vertical-align: top;"
@@ -305,7 +289,7 @@ exports[`Response component renders Response 1`] = `
                             </span>
                           </span>
                           <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                           >
                             :
                           </span>
@@ -315,14 +299,8 @@ exports[`Response component renders Response 1`] = `
                           style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                         >
                           <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
+                            style="display: inline-block; color: rgb(205, 168, 105);"
                           >
-                            <span
-                              class="data-type-label"
-                              style="font-size: 11px; margin-right: 4px; opacity: 0.8;"
-                            >
-                              string
-                            </span>
                             <span
                               class="string-value"
                               style="cursor: default;"
@@ -343,7 +321,7 @@ exports[`Response component renders Response 1`] = `
                               <svg
                                 fill="currentColor"
                                 preserveAspectRatio="xMidYMid meet"
-                                style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                                style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                                 viewBox="0 0 40 40"
                               >
                                 <g>
@@ -358,12 +336,12 @@ exports[`Response component renders Response 1`] = `
                       </div>
                       <div
                         class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                       >
                         <span>
                           <span
                             class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                            style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                           >
                             <span
                               style="vertical-align: top;"
@@ -382,7 +360,7 @@ exports[`Response component renders Response 1`] = `
                             </span>
                           </span>
                           <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                           >
                             :
                           </span>
@@ -392,14 +370,8 @@ exports[`Response component renders Response 1`] = `
                           style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                         >
                           <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
+                            style="display: inline-block; color: rgb(205, 168, 105);"
                           >
-                            <span
-                              class="data-type-label"
-                              style="font-size: 11px; margin-right: 4px; opacity: 0.8;"
-                            >
-                              string
-                            </span>
                             <span
                               class="string-value"
                               style="cursor: default;"
@@ -420,7 +392,7 @@ exports[`Response component renders Response 1`] = `
                               <svg
                                 fill="currentColor"
                                 preserveAspectRatio="xMidYMid meet"
-                                style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                                style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                                 viewBox="0 0 40 40"
                               >
                                 <g>
@@ -439,7 +411,7 @@ exports[`Response component renders Response 1`] = `
                     class="brace-row"
                   >
                     <span
-                      style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 3px;"
+                      style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255); padding-left: 3px;"
                     >
                       }
                     </span>
@@ -447,7 +419,7 @@ exports[`Response component renders Response 1`] = `
                 </div>
                 <div
                   class="object-key-val"
-                  style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                  style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                 >
                   <span>
                     <span
@@ -462,7 +434,7 @@ exports[`Response component renders Response 1`] = `
                         >
                           <svg
                             fill="currentColor"
-                            style="vertical-align: top; color: rgb(88, 110, 117); height: 1em; width: 1em; padding-left: 2px;"
+                            style="vertical-align: top; color: rgb(117, 135, 166); height: 1em; width: 1em; padding-left: 2px;"
                             viewBox="0 0 15 15"
                           >
                             <path
@@ -472,7 +444,7 @@ exports[`Response component renders Response 1`] = `
                         </span>
                       </div>
                       <span
-                        style="display: inline-block; color: rgb(108, 113, 196); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                        style="display: inline-block; color: rgb(175, 196, 219); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                       >
                         <span
                           class="array-key"
@@ -480,13 +452,13 @@ exports[`Response component renders Response 1`] = `
                           1
                         </span>
                         <span
-                          style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                          style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                         >
                           :
                         </span>
                       </span>
                       <span
-                        style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
+                        style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255);"
                       >
                         {
                       </span>
@@ -495,12 +467,6 @@ exports[`Response component renders Response 1`] = `
                       class="object-meta-data"
                       style="display: inline-block; padding: 0px 0px 0px 10px;"
                     >
-                      <span
-                        class="object-size"
-                        style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
-                      >
-                        3 items
-                      </span>
                       <span
                         class="copy-to-clipboard-container"
                       >
@@ -513,7 +479,7 @@ exports[`Response component renders Response 1`] = `
                             <svg
                               fill="currentColor"
                               preserveAspectRatio="xMidYMid meet"
-                              style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                              style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                               viewBox="0 0 40 40"
                             >
                               <g>
@@ -536,12 +502,12 @@ exports[`Response component renders Response 1`] = `
                     >
                       <div
                         class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                       >
                         <span>
                           <span
                             class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                            style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                           >
                             <span
                               style="vertical-align: top;"
@@ -560,7 +526,7 @@ exports[`Response component renders Response 1`] = `
                             </span>
                           </span>
                           <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                           >
                             :
                           </span>
@@ -570,14 +536,8 @@ exports[`Response component renders Response 1`] = `
                           style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                         >
                           <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
+                            style="display: inline-block; color: rgb(205, 168, 105);"
                           >
-                            <span
-                              class="data-type-label"
-                              style="font-size: 11px; margin-right: 4px; opacity: 0.8;"
-                            >
-                              string
-                            </span>
                             <span
                               class="string-value"
                               style="cursor: default;"
@@ -598,7 +558,7 @@ exports[`Response component renders Response 1`] = `
                               <svg
                                 fill="currentColor"
                                 preserveAspectRatio="xMidYMid meet"
-                                style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                                style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                                 viewBox="0 0 40 40"
                               >
                                 <g>
@@ -613,12 +573,12 @@ exports[`Response component renders Response 1`] = `
                       </div>
                       <div
                         class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                       >
                         <span>
                           <span
                             class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                            style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                           >
                             <span
                               style="vertical-align: top;"
@@ -637,7 +597,7 @@ exports[`Response component renders Response 1`] = `
                             </span>
                           </span>
                           <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                           >
                             :
                           </span>
@@ -647,14 +607,8 @@ exports[`Response component renders Response 1`] = `
                           style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                         >
                           <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
+                            style="display: inline-block; color: rgb(205, 168, 105);"
                           >
-                            <span
-                              class="data-type-label"
-                              style="font-size: 11px; margin-right: 4px; opacity: 0.8;"
-                            >
-                              string
-                            </span>
                             <span
                               class="string-value"
                               style="cursor: default;"
@@ -675,7 +629,7 @@ exports[`Response component renders Response 1`] = `
                               <svg
                                 fill="currentColor"
                                 preserveAspectRatio="xMidYMid meet"
-                                style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                                style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                                 viewBox="0 0 40 40"
                               >
                                 <g>
@@ -690,12 +644,12 @@ exports[`Response component renders Response 1`] = `
                       </div>
                       <div
                         class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                       >
                         <span>
                           <span
                             class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                            style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                           >
                             <span
                               style="vertical-align: top;"
@@ -714,7 +668,7 @@ exports[`Response component renders Response 1`] = `
                             </span>
                           </span>
                           <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                           >
                             :
                           </span>
@@ -724,14 +678,8 @@ exports[`Response component renders Response 1`] = `
                           style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                         >
                           <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
+                            style="display: inline-block; color: rgb(205, 168, 105);"
                           >
-                            <span
-                              class="data-type-label"
-                              style="font-size: 11px; margin-right: 4px; opacity: 0.8;"
-                            >
-                              string
-                            </span>
                             <span
                               class="string-value"
                               style="cursor: default;"
@@ -752,7 +700,7 @@ exports[`Response component renders Response 1`] = `
                               <svg
                                 fill="currentColor"
                                 preserveAspectRatio="xMidYMid meet"
-                                style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                                style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                                 viewBox="0 0 40 40"
                               >
                                 <g>
@@ -771,7 +719,7 @@ exports[`Response component renders Response 1`] = `
                     class="brace-row"
                   >
                     <span
-                      style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 3px;"
+                      style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255); padding-left: 3px;"
                     >
                       }
                     </span>
@@ -779,7 +727,7 @@ exports[`Response component renders Response 1`] = `
                 </div>
                 <div
                   class="object-key-val"
-                  style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                  style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                 >
                   <span>
                     <span
@@ -794,7 +742,7 @@ exports[`Response component renders Response 1`] = `
                         >
                           <svg
                             fill="currentColor"
-                            style="vertical-align: top; color: rgb(88, 110, 117); height: 1em; width: 1em; padding-left: 2px;"
+                            style="vertical-align: top; color: rgb(117, 135, 166); height: 1em; width: 1em; padding-left: 2px;"
                             viewBox="0 0 15 15"
                           >
                             <path
@@ -804,7 +752,7 @@ exports[`Response component renders Response 1`] = `
                         </span>
                       </div>
                       <span
-                        style="display: inline-block; color: rgb(108, 113, 196); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                        style="display: inline-block; color: rgb(175, 196, 219); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                       >
                         <span
                           class="array-key"
@@ -812,13 +760,13 @@ exports[`Response component renders Response 1`] = `
                           2
                         </span>
                         <span
-                          style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                          style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                         >
                           :
                         </span>
                       </span>
                       <span
-                        style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
+                        style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255);"
                       >
                         {
                       </span>
@@ -827,12 +775,6 @@ exports[`Response component renders Response 1`] = `
                       class="object-meta-data"
                       style="display: inline-block; padding: 0px 0px 0px 10px;"
                     >
-                      <span
-                        class="object-size"
-                        style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
-                      >
-                        3 items
-                      </span>
                       <span
                         class="copy-to-clipboard-container"
                       >
@@ -845,7 +787,7 @@ exports[`Response component renders Response 1`] = `
                             <svg
                               fill="currentColor"
                               preserveAspectRatio="xMidYMid meet"
-                              style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                              style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                               viewBox="0 0 40 40"
                             >
                               <g>
@@ -868,12 +810,12 @@ exports[`Response component renders Response 1`] = `
                     >
                       <div
                         class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                       >
                         <span>
                           <span
                             class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                            style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                           >
                             <span
                               style="vertical-align: top;"
@@ -892,7 +834,7 @@ exports[`Response component renders Response 1`] = `
                             </span>
                           </span>
                           <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                           >
                             :
                           </span>
@@ -902,14 +844,8 @@ exports[`Response component renders Response 1`] = `
                           style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                         >
                           <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
+                            style="display: inline-block; color: rgb(205, 168, 105);"
                           >
-                            <span
-                              class="data-type-label"
-                              style="font-size: 11px; margin-right: 4px; opacity: 0.8;"
-                            >
-                              string
-                            </span>
                             <span
                               class="string-value"
                               style="cursor: default;"
@@ -930,7 +866,7 @@ exports[`Response component renders Response 1`] = `
                               <svg
                                 fill="currentColor"
                                 preserveAspectRatio="xMidYMid meet"
-                                style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                                style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                                 viewBox="0 0 40 40"
                               >
                                 <g>
@@ -945,12 +881,12 @@ exports[`Response component renders Response 1`] = `
                       </div>
                       <div
                         class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                       >
                         <span>
                           <span
                             class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                            style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                           >
                             <span
                               style="vertical-align: top;"
@@ -969,7 +905,7 @@ exports[`Response component renders Response 1`] = `
                             </span>
                           </span>
                           <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                           >
                             :
                           </span>
@@ -979,14 +915,8 @@ exports[`Response component renders Response 1`] = `
                           style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                         >
                           <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
+                            style="display: inline-block; color: rgb(205, 168, 105);"
                           >
-                            <span
-                              class="data-type-label"
-                              style="font-size: 11px; margin-right: 4px; opacity: 0.8;"
-                            >
-                              string
-                            </span>
                             <span
                               class="string-value"
                               style="cursor: default;"
@@ -1007,7 +937,7 @@ exports[`Response component renders Response 1`] = `
                               <svg
                                 fill="currentColor"
                                 preserveAspectRatio="xMidYMid meet"
-                                style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                                style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                                 viewBox="0 0 40 40"
                               >
                                 <g>
@@ -1022,12 +952,12 @@ exports[`Response component renders Response 1`] = `
                       </div>
                       <div
                         class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        style="border-left: 1px solid #464b50; padding: 3px 5px 3px 20px;"
                       >
                         <span>
                           <span
                             class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                            style="display: inline-block; color: rgb(255, 255, 255); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                           >
                             <span
                               style="vertical-align: top;"
@@ -1046,7 +976,7 @@ exports[`Response component renders Response 1`] = `
                             </span>
                           </span>
                           <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            style="display: inline-block; margin: 0px 5px; color: rgb(255, 255, 255); vertical-align: top;"
                           >
                             :
                           </span>
@@ -1056,14 +986,8 @@ exports[`Response component renders Response 1`] = `
                           style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                         >
                           <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
+                            style="display: inline-block; color: rgb(205, 168, 105);"
                           >
-                            <span
-                              class="data-type-label"
-                              style="font-size: 11px; margin-right: 4px; opacity: 0.8;"
-                            >
-                              string
-                            </span>
                             <span
                               class="string-value"
                               style="cursor: default;"
@@ -1084,7 +1008,7 @@ exports[`Response component renders Response 1`] = `
                               <svg
                                 fill="currentColor"
                                 preserveAspectRatio="xMidYMid meet"
-                                style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                                style="vertical-align: top; color: rgb(155, 112, 63); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                                 viewBox="0 0 40 40"
                               >
                                 <g>
@@ -1103,7 +1027,7 @@ exports[`Response component renders Response 1`] = `
                     class="brace-row"
                   >
                     <span
-                      style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 3px;"
+                      style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255); padding-left: 3px;"
                     >
                       }
                     </span>
@@ -1115,7 +1039,7 @@ exports[`Response component renders Response 1`] = `
               class="brace-row"
             >
               <span
-                style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 3px;"
+                style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255); padding-left: 3px;"
               >
                 ]
               </span>
