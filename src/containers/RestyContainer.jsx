@@ -2,12 +2,13 @@
 import React, { Component } from 'react'
 import Controls from '../components/resty/controls/Controls'
 import HistoryList from '../components/resty/displays/HistoryList';
+import Response from '../components/resty/displays/Response'
+import { getRequest } from '../services/api-service';
 
 export default class RestyContainer extends Component {
   state = {
     url: '',
     method: '',
-    json: 'sample json response',
     response: '',
     history: [],
     click: false
@@ -19,7 +20,7 @@ export default class RestyContainer extends Component {
     console.log(e.target.value)
   }
 
-  handleClick = () => {
+  handleClick = async () => {
     // check form 
     if (!this.state.url || !this.state.method) return alert('Please fill out the required fields')
 
@@ -30,10 +31,15 @@ export default class RestyContainer extends Component {
       ],
       click: true
     }))
+
+    if (this.state.method === 'GET') {
+      const response = await getRequest(this.state.url)
+      this.setState({ response: response })
+    }
   }
 
   render() {
-    const { click, history } = this.state;
+    const { click, history, response } = this.state;
 
     return (
       <>
@@ -45,7 +51,12 @@ export default class RestyContainer extends Component {
           <Controls onChange={this.handleChange} onClick={this.handleClick} />
 
           {/* conditionally render history */}
-          {click && <HistoryList history={history} />}
+          {click &&
+            <>
+              <HistoryList history={history} />
+              <Response apiResponse={response} />
+            </>
+          }
         </div>
       </>
     )
