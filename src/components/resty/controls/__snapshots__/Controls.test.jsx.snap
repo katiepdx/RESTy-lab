@@ -54,11 +54,12 @@ exports[`Controls component renders Controls 1`] = `
       >
         JSON (POST/PUT)
       </label>
-      <input
+      <textarea
         name="json"
         type="text"
-        value="test json"
-      />
+      >
+        test json
+      </textarea>
     </div>
     <button>
       Go!

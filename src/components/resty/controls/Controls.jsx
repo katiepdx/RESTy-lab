@@ -20,7 +20,7 @@ const Controls = ({ url, json, onChange, onClick }) => (
     </div>
     <div>
       <label htmlFor="json">JSON (POST/PUT)</label>
-      <input type="text" name="json" value={json} onChange={onChange} />
+      <textarea type="text" name="json" value={json} onChange={onChange} />
     </div>
     <button onClick={onClick}>Go!</button>
   </section>

@@ -5,7 +5,7 @@ import styles from './Response.css'
 
 const Response = ({ apiResponse }) => (
   <section className={styles.response}>
-    <ReactJson src={apiResponse} displayDataTypes={false} displayObjectSize={false}  theme="twilight" />
+    <ReactJson src={apiResponse} displayDataTypes={false} displayObjectSize={false} theme="twilight" />
   </section>
 );
 

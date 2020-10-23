@@ -3,14 +3,14 @@ import React, { Component } from 'react'
 import Controls from '../components/resty/controls/Controls'
 import HistoryList from '../components/resty/displays/HistoryList';
 import Response from '../components/resty/displays/Response'
-import { getRequest } from '../services/api-service';
+import { getRequest, postRequest } from '../services/api-service';
 import styles from './RestyContainer.css'
 
 export default class RestyContainer extends Component {
   state = {
     url: '',
     method: '',
-    rawJson: '',
+    stringyJson: {},
     response: '',
     history: [],
     click: false
@@ -18,6 +18,14 @@ export default class RestyContainer extends Component {
 
   handleChange = (e) => {
     e.preventDefault();
+
+    // stringify json (from textarea field) for state
+    if (e.target.name === 'json') {
+      const stringyData = JSON.stringify(e.target.value)
+      console.log(stringyData)
+      this.setState({ stringyJson: stringyData })
+    }
+
     this.setState({ [e.target.name]: e.target.value })
     console.log(e.target.value)
   }
@@ -41,8 +49,12 @@ export default class RestyContainer extends Component {
       click: true
     }))
 
+    // api req using method
     if (this.state.method === 'GET') {
       const response = await getRequest(this.state.url)
+      this.setState({ response: response })
+    } else if (this.state.method === 'POST') {
+      const response = await postRequest(this.state.url, this.state.stringyJson)
       this.setState({ response: response })
     }
   }

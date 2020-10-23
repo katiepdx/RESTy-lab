@@ -58,10 +58,9 @@ exports[`App component renders App 1`] = `
         >
           JSON (POST/PUT)
         </label>
-        <input
+        <textarea
           name="json"
           type="text"
-          value=""
         />
       </div>
       <button>
