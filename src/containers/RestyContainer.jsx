@@ -34,13 +34,6 @@ export default class RestyContainer extends Component {
     // check form 
     if (!this.state.url || !this.state.method) return alert('Please fill out the required fields')
 
-    // check if the search is already in history 
-    // this.state.history.map(search => {
-    //   if (search.url === this.state.url && search.method === this.state.method) {
-    //     return alert('Already searched')
-    //   }
-    // })
-
     this.setState(state => ({
       history: [
         ...state.history,
@@ -70,7 +63,7 @@ export default class RestyContainer extends Component {
 
     return (
       <>
-        <body>
+        <section>
           <h1>Resty Lab</h1>
           <div>
             {/* form goes here */}
@@ -78,7 +71,7 @@ export default class RestyContainer extends Component {
 
             {/* conditionally render history */}
             {click &&
-              <section className={styles.historyAndResponse}>
+              <section data-testid="display" className={styles.historyAndResponse}>
                 <div>
                   <h2>Search History</h2>
                   <HistoryList history={history} />
@@ -91,7 +84,7 @@ export default class RestyContainer extends Component {
               </section>
             }
           </div>
-        </body>
+        </section>
       </>
     )
   }

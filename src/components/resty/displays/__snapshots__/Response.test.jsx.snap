@@ -4,6 +4,7 @@ exports[`Response component renders Response 1`] = `
 <DocumentFragment>
   <section
     class="response"
+    data-testid="json-response"
   >
     <div
       class="react-json-view"
