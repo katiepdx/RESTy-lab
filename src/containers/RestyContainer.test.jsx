@@ -1,4 +1,4 @@
-// tests that json returns from GET request and is displayed to screen  
+// tests that json returns from GET request and is displayed to screen
 
 // tests that a confirmation message is returned and displayed to screen on POST API request 
 
@@ -21,7 +21,7 @@ describe('RestyContainer container', () => {
     const submitButton = screen.getByTestId('submit-button');
 
     fireEvent.change(urlInput, {
-      target: { value: 'https://hey-arnold-api.herokuapp.com/api/v1/characters' }
+      target: { value: 'https://jsonplaceholder.typicode.com/posts/' }
     });
 
     fireEvent.click(getInput);
@@ -32,7 +32,31 @@ describe('RestyContainer container', () => {
 
     setTimeout(() => {
       waitFor(() => {
-        expect(jsonResponse).toContainElement(JSON);
+        return expect(jsonResponse).not.toBeEmptyDOMElement()
+      });
+    }, 5000);
+  });
+
+  it('tests that a confirmation message is returned and displayed to screen on DELETE API request', async () => {
+    render(<RestyContainer />);
+
+    const urlInput = screen.getByTestId('url-input');
+    const getInput = screen.getByTestId('get-input');
+    const submitButton = screen.getByTestId('submit-button');
+
+    fireEvent.change(urlInput, {
+      target: { value: 'https://jsonplaceholder.typicode.com/posts/1' }
+    });
+
+    fireEvent.click(getInput);
+
+    fireEvent.click(submitButton);
+
+    const jsonResponse = await screen.getByTestId('json-response')
+
+    setTimeout(() => {
+      waitFor(() => {
+        return expect(jsonResponse).not.toBeEmptyDOMElement()
       });
     }, 5000);
   });

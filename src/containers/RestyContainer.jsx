@@ -79,7 +79,7 @@ export default class RestyContainer extends Component {
 
                 <div>
                   <h2>API Response</h2>
-                  <Response apiResponse={response} />
+                  <Response data-testid="json-response" apiResponse={response} />
                 </div>
               </section>
             }
