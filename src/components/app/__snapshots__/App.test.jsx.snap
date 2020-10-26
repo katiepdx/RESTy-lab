@@ -2,8 +2,81 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <h1>
-    Hello World
-  </h1>
+  <section>
+    <h1>
+      Resty Lab
+    </h1>
+    <div>
+      <section
+        class="userForm"
+      >
+        <div>
+          <label
+            for="url"
+          >
+            Search Bar
+          </label>
+          <input
+            data-testid="url-input"
+            name="url"
+            type="text"
+            value=""
+          />
+        </div>
+        <div>
+          <label
+            for="method"
+          >
+            Method
+          </label>
+          <input
+            data-testid="get-input"
+            name="method"
+            type="radio"
+            value="GET"
+          />
+           GET
+          <input
+            data-testid="post-input"
+            name="method"
+            type="radio"
+            value="POST"
+          />
+           POST
+          <input
+            data-testid="put-input"
+            name="method"
+            type="radio"
+            value="PUT"
+          />
+           PUT
+          <input
+            data-testid="delete-input"
+            name="method"
+            type="radio"
+            value="DELETE"
+          />
+           DELETE
+        </div>
+        <div>
+          <label
+            for="json"
+          >
+            JSON (POST/PUT)
+          </label>
+          <textarea
+            data-testid="json-input"
+            name="json"
+            type="text"
+          />
+        </div>
+        <button
+          data-testid="submit-button"
+        >
+          Go!
+        </button>
+      </section>
+    </div>
+  </section>
 </DocumentFragment>
 `;

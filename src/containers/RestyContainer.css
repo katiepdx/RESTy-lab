@@ -1,0 +1,26 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  min-width: min-content;
+  max-width: 100%;
+}
+
+h1 {
+  background-color: rgba(255, 134, 54, 0.432);
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+}
+
+.historyAndResponse {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  padding: 0 1.2rem;
+  margin: 1.2rem 0;
+  border-radius: 1.2rem;
+}

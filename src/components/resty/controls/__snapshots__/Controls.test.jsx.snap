@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls component renders Controls 1`] = `
+<DocumentFragment>
+  <section
+    class="userForm"
+  >
+    <div>
+      <label
+        for="url"
+      >
+        Search Bar
+      </label>
+      <input
+        data-testid="url-input"
+        name="url"
+        type="text"
+        value="www.api1.com"
+      />
+    </div>
+    <div>
+      <label
+        for="method"
+      >
+        Method
+      </label>
+      <input
+        data-testid="get-input"
+        name="method"
+        type="radio"
+        value="GET"
+      />
+       GET
+      <input
+        data-testid="post-input"
+        name="method"
+        type="radio"
+        value="POST"
+      />
+       POST
+      <input
+        data-testid="put-input"
+        name="method"
+        type="radio"
+        value="PUT"
+      />
+       PUT
+      <input
+        data-testid="delete-input"
+        name="method"
+        type="radio"
+        value="DELETE"
+      />
+       DELETE
+    </div>
+    <div>
+      <label
+        for="json"
+      >
+        JSON (POST/PUT)
+      </label>
+      <textarea
+        data-testid="json-input"
+        name="json"
+        type="text"
+      >
+        test json
+      </textarea>
+    </div>
+    <button
+      data-testid="submit-button"
+    >
+      Go!
+    </button>
+  </section>
+</DocumentFragment>
+`;

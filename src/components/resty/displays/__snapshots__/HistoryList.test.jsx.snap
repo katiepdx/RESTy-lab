@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryList component renders HistoryList 1`] = `
+<DocumentFragment>
+  <section
+    class="historyItem"
+  >
+    <p>
+      Method: GET
+    </p>
+    <p>
+      URL: www.api1.com
+    </p>
+  </section>
+  <section
+    class="historyItem"
+  >
+    <p>
+      Method: PUT
+    </p>
+    <p>
+      URL: www.api2.com
+    </p>
+  </section>
+  <section
+    class="historyItem"
+  >
+    <p>
+      Method: GET
+    </p>
+    <p>
+      URL: www.api3.com
+    </p>
+  </section>
+</DocumentFragment>
+`;

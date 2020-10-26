@@ -1,0 +1,13 @@
+.historyItem {
+  background-color: rgba(255, 224, 174, 0.795);
+  font-size: 18px;
+  padding: 0 12px;
+  width: 100%;
+  color: black;
+  border-radius: 0.8rem;
+}
+
+.historyItem:hover {
+  background-color: rgba(255, 134, 54, 0.432);
+
+}
